@@ -22,11 +22,12 @@ import HomeIcon from '@mui/icons-material/Home';
 
 const Container = styled.div`
     height: 80px;
+    width:100%;
     background-color:#2C6C70;
 
    `
 const Wrapper = styled.div`
-
+width:100%;
  display:flex;
  
 `

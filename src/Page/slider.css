@@ -8,15 +8,18 @@
 
 .slideshow {
   margin-top: 50px;
-  width: 590px;
+  width: 50%;
   float: left;
   margin-left: 40px;
 }
 slideshow1 {
-  width: 600px;
+  width: 60%;
 }
 .imgslide img {
   width: 100%;
+}
+.content{
+  width: 40%;
 }
 .content h3{
   margin-top: 110px;
@@ -31,7 +34,12 @@ slideshow1 {
 .content p{
   margin-top: -10px;
 }
+.title1 {
+  width: 100%;
+  display:flex;
 
+}
 .title1 h2{
 text-align: center  ;
+margin: auto;
 }

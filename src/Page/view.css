@@ -3,7 +3,7 @@
   background-color: white;
   display: block;
 
-  width: 1000px;
+  width: 90%;
   margin-left: 150px;
   border-radius: 2%;
 }
@@ -11,12 +11,12 @@
 .name {
   margin-top: 30px;
   text-align: center;
-  width: 1260px;
+  width: 100%;
   height: 100px;
 }
 .image {
   float: left;
-  width: 500px;
+  width: 40%;
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -40,7 +40,7 @@
 .table {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
-  width: 400px;
+  width: 500px;
 }
 
 .table td,
@@ -53,8 +53,8 @@
   background-color: #f2f2f2;
 }
 .hinhthai {
-  width: 1000px;
-  height: 30px;
+width: 70%;
+
   display: flex;
 }
 .hinhthai p {
@@ -68,6 +68,7 @@
   margin-top: 30px;
   margin-left: 30px;
   font-size: 19px;
+  width: 900px;
 }
 .chitietht p {
   padding-top: 10px;
@@ -77,7 +78,7 @@
   margin-left: 30px;
 }
 .baoton {
-  width: 1000px;
+  width: 70%;
   text-align: center;
 }
 .slick-dots{

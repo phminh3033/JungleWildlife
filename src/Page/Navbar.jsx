@@ -80,7 +80,7 @@ const Main = styled.div`
 
 `
 const Container1 = styled.div`
-   margin-left: 32px;                                           
+   margin-left:35px;                                           
 `
 
 
@@ -132,7 +132,7 @@ const handleSubmit = (e) =>{
                 <Link1 activeClass="active" className="test1" to="slider" spy={true} smooth={true} duration={500} > HOME </Link1>
               </Home>
               <List className='List'>
-                <Link1 activeClass="active" className="test1" to="card-body" spy={true} smooth={true} duration={500} >  DANH SÁCH </Link1>
+                <Link1 activeClass="active" className="test1" to="title1" spy={true} smooth={true} duration={500} >  DANH SÁCH </Link1>
               </List >
               <About className='About'>
               <Link1 activeClass="active" className="test1" to="Lienhe" spy={true} smooth={true} duration={800} >  LIÊN HỆ </Link1>
@@ -189,9 +189,7 @@ const handleSubmit = (e) =>{
               <img src={data[id].img1}></img>
               <h3>{data[id].tenDiaphuong}</h3>
               <Link1 activeClass="active" className="test1" to="logo" spy={true} smooth={true} duration={800} > <Link2 to={`/view/${id}`} ><button className="card-btn" ><SearchIcon /></button></Link2> </Link1>
-                 
-             
-  
+              
             </div>
           </div>
        
